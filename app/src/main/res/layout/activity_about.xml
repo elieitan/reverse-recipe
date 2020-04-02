@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.reverserecipe.ui.About"
+    android:background="@color/colorPrimary" >
+
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/about_description_header"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextIcons"/>
+
+    <TextView
+        android:id="@+id/aboutDescription"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:text="@string/about_description"
+        android:textSize="20sp"
+        android:textColor="@color/colorTextIcons"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/aboutTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp" />
+
+    <TextView
+        android:id="@+id/contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_title"
+        android:textSize="30sp"
+        android:textColor="@color/colorTextIcons"
+        android:textStyle="bold"
+        android:layout_below="@+id/aboutDescription"
+        android:layout_alignLeft="@+id/aboutDescription"
+        android:layout_alignStart="@+id/aboutDescription"
+        android:layout_marginTop="49dp" />
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_name"
+        android:textSize="20sp"
+        android:textColor="@color/colorTextIcons"
+        android:layout_below="@+id/contact_title"
+        android:layout_alignLeft="@+id/contact_title"
+        android:layout_alignStart="@+id/contact_title" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/code"
+        android:textSize="20sp"
+        android:textColor="@color/colorTextIcons"
+        android:layout_below="@+id/contact_name"
+        android:layout_alignLeft="@+id/contact_name"
+        android:layout_alignStart="@+id/contact_name" />
+
+
+
+</RelativeLayout>

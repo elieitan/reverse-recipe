@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.reverserecipe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.reverserecipe.ui.MainActivity">
+
+        </activity>
+        <activity android:name="com.example.reverserecipe.ui.CreateAccountActivity" />
+        <activity android:name="com.example.reverserecipe.ui.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar.whiteEditText"
+            />
+        <activity android:name="com.example.reverserecipe.ui.About">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.reverserecipe.ui.MainActivity" />
+        </activity>
+        <activity android:name="com.example.reverserecipe.ui.Fridge"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name="com.example.reverserecipe.ui.RecipeList"
+            android:label=""/>
+        <activity android:name="com.example.reverserecipe.ui.RecipeDetailActivity" />
+        <activity android:name="com.example.reverserecipe.ui.SavedRecipesListActivity" />
+    </application>
+
+</manifest>

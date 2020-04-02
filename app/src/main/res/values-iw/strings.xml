@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מתכון הפוך</string>
+    <string name="action_bar">"        What's In The Fridge is an app that provides you with recipes made from the ingredients you have in the fridge."</string>
+    <string name="online_view">"    "</string>
+    <string name="error_invalid_password">סיסמה לא חוקית</string>
+    <string name="error_incorrect_password">סיסמה לא נכונה</string>
+    <string name="error_field_required">שדה חובה</string>
+    <string name="error_invalid_email">כתובת מייל לא חוקית</string>
+    <string name="action_sign_in">כניסה או הרשמה</string>
+    <string name="login_button">כפתור הרשמה</string>
+    <string name="action_sign_in_short">כניסה קצרה</string>
+    <string name="title_activity_login">היכנס</string>
+    <string name="search">חיפוש</string>
+    <string name="save_button">שמור מתכון</string>
+    <string name="saved_button">שמור מתכונים</string>
+    <string name="register_link">הירשם</string>
+    <string name="registration_button">הירשם</string>
+    <string name="recipe_title">שם המתכון:</string>
+    <string name="prompt_password">סיסמה (אופציונלי)</string>
+    <string name="recipe_url">השימת המתכונים</string>
+    <string name="recipe_ingredients">רכיבים:</string>
+    <string name="ingredient_instruction"> הכנס רכיבים מהם תרצה שהמתכון יורכב</string>
+    <string name="search_button">חיפוש מתכונים</string>
+    <string name="password_hint">הכנס סיסמה</string>
+    <string name="last_name_hint">הכנס שם משפחה</string>
+    <string name="ingredient">הזן רכיבים</string>
+    <string name="first_name_hint">הכנס שם</string>
+    <string name="email_hint">הכנס כתובת אימייל</string>
+    <string name="prompt_email">אימייל</string>
+    <string name="contact_title">מידע למפתחים</string>
+    <string name="about_button">" אודות"</string>
+    <string name="sign_up_button">הרשמה</string>
+    <string name="sign_in">כניסה</string>
+    <string name="sign_in_facebook">התחברות</string>
+    <string name="sign_in_google">התחברות</string>
+    <string name="guest_user">התחבר כאורח</string>
+    <string name="app_desc">לא יודע מה לבשל?</string>
+    <string name="app_desc2">פשוט תרשום מה שיש לך בבית</string>
+</resources>
